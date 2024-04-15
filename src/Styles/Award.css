@@ -1,0 +1,30 @@
+.award {
+  background-color: #10123c;
+}
+
+.awards {
+  margin: auto 30%;
+}
+
+.member {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 20%;
+  /* gap: 4rem; */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.mem-img {
+  /* height: 10vh; */
+  width: 60%;
+}
+
+.mem-head {
+  text-align: center;
+}

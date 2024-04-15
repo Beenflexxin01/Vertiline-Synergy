@@ -1,0 +1,49 @@
+.i-h {
+  color: #9fc53f;
+  text-align: center;
+}
+
+.inv {
+  margin: auto;
+  padding: 4rem;
+}
+
+.investment {
+  background-color: #84848fac;
+  margin: auto;
+  padding: 2rem;
+  height: 90vh;
+}
+
+.i-v {
+  color: #10123c;
+}
+
+.inv-h2 {
+  left: 10%;
+}
+
+.c-i {
+  filter: brightness(80%);
+  height: 70vh;
+}
+
+.list {
+  line-height: 2;
+}
+
+.list-grid {
+  margin-left: 33%;
+}
+
+.turn-li {
+  font-size: 1.5rem;
+}
+
+.c-t {
+  color: #10123c;
+}
+
+.l-g {
+  margin: 0;
+}

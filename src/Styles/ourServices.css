@@ -1,0 +1,38 @@
+.serv-img {
+  height: 50vh;
+  width: 100%;
+  border-radius: 9px;
+  transition: all 0.3s linear;
+  margin-bottom: 4rem;
+}
+
+.serv-img:hover,
+.serv-img:active {
+  transform: scale(1.01);
+}
+
+.serv-grid {
+  margin: 4rem;
+}
+
+.services {
+  color: #9ec53f;
+  color: #10123c;
+  font-size: 4rem;
+  line-height: 2;
+}
+
+.serv-align {
+  text-align: center;
+}
+
+.tertiary-header {
+  font-size: 2rem;
+}
+
+.serv-btn {
+  margin-top: 9rem;
+}
+.serv--btn {
+  margin-top: 12rem;
+}

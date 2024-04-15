@@ -1,0 +1,81 @@
+.business {
+  background-color: #10123c;
+}
+
+.focus-attr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 12rem;
+}
+
+.business-text {
+  color: #fff;
+  line-height: 2.5;
+}
+
+.business-header {
+  font-size: 5rem;
+  color: #9fc53f;
+  line-height: 3;
+}
+
+.focus-btn {
+  color: #fff;
+  padding: 2rem 1.2rem;
+  margin: 4rem 1.2rem;
+  border-radius: 50%;
+  background-color: #84848f70;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.focus-btn:hover,
+.focus-btn:active {
+  transform: scale(1.1);
+  background-color: rgba(24, 29, 124, 0.275)
+}
+
+.icon {
+  color: #fff;
+  filter: brightness(80%);
+  height: 5rem;
+  width: 100%;
+  opacity: 70%;
+}
+
+.grid-img {
+  margin: 0;
+  padding: 0;
+}
+
+.focus-img {
+  height: 100%;
+  width: 100%;
+}
+
+.business-grid-2 {
+  grid-template-columns: 60% 40%;
+}
+
+.food,
+.travel {
+  padding: 2rem 4rem;
+}
+
+.recreate {
+  padding: 4.5rem 1.4rem;
+}
+
+.business-grid-2-cols {
+  margin: 5rem;
+  padding: 4rem;
+}

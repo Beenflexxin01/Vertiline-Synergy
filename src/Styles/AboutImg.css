@@ -1,0 +1,62 @@
+.about-img {
+  height: 90vh;
+  width: 100%;
+}
+
+.history {
+  background-color: #10123c;
+  color: #fff;
+  padding: 2rem;
+}
+
+.mission {
+  margin: auto;
+  width: 50%;
+}
+
+.abt-header {
+  font-size: 2.3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.grid-3-cols {
+  margin: 1rem 3rem;
+}
+
+.mission-border {
+  border-bottom: 1px solid #000;
+  margin: 1rem 0;
+}
+
+.certifications {
+  list-style: disc;
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.hero-li {
+  /* display: flex; */
+  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.values {
+  font-size: 1.8rem;
+  list-style: square;
+}
+
+.about-hero {
+  left: 0;
+  margin: 2rem 5rem;
+  /* top: 40%; */
+  top: 30%;
+  text-align: start;
+}
+
+.statement {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}

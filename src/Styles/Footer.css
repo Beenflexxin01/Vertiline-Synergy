@@ -1,0 +1,62 @@
+.footer {
+  background-color: #10123c;
+  padding: 6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #fff;
+  line-height: 3;
+  font-size: 1.3rem;
+}
+
+.nur-header {
+  font-size: 1.8rem;
+  color: #eee;
+  color: #9fc53f;
+  opacity: 70%;
+}
+
+.foot-4 {
+  padding: 3rem;
+  margin-left: 22rem;
+}
+
+.footer-logo {
+  background-color: #fff;
+  margin-top: 10rem;
+  width: 55%;
+}
+
+.footer-text {
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer-border {
+  border: 1px solid #eee;
+  opacity: 35%;
+  margin-bottom: 2.4rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.icons {
+  background-color: #fff;
+  color: #10123c;
+  border-radius: 4px;
+  padding: 0.34rem;
+  transition: all 0.4s linear;
+}
+
+.icons:hover {
+  background-color: transparent;
+  color: #fff;
+  transform: scale(1.01);
+}
