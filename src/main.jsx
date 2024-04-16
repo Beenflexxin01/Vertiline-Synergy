@@ -10,6 +10,7 @@ import "./Styles/Award.css";
 import "./Styles/HelloContact.css";
 import "./Styles/AboutImg.css";
 import "./Styles/Investment.css";
+import "./Styles/Media.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

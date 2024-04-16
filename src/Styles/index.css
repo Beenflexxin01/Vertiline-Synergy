@@ -72,6 +72,7 @@ li {
 .main-nav-li {
   font-size: 1.5rem;
   color: #fff;
+  cursor: pointer;
 }
 .nav-link {
   color: #fff;

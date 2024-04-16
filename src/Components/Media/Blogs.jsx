@@ -1,4 +1,4 @@
-function Services() {
+function Blogs() {
     return (
         <div>
             
@@ -6,4 +6,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Blogs

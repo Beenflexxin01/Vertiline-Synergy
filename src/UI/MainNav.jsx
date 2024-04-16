@@ -55,11 +55,34 @@ function MainNav() {
             </NavLink>
           </li>
 
-          <li className="main-nav-li">
-            <NavLink to={"media"} className="nav-link">
+          <div className="dropdown">
+            <li className="main-nav-li">
               Media
-            </NavLink>
-          </li>
+              <div className="dropdown-content">
+                <li className="main-nav-l">
+                  <NavLink
+                    to={"media/gallery"}
+                    className="nav-link dropdown-link">
+                    Gallery
+                  </NavLink>
+                </li>
+                <li className="main-nav-l">
+                  <NavLink
+                    to={"media/blogs"}
+                    className="nav-link dropdown-link">
+                    Blog
+                  </NavLink>
+                </li>
+                <li className="main-nav-l">
+                  <NavLink
+                    to={"media/news"}
+                    className="nav-link dropdown-link">
+                    News
+                  </NavLink>
+                </li>
+              </div>
+            </li>
+          </div>
 
           <li className="main-nav-li">
             <NavLink to={"csr"} className="nav-link">

@@ -1,11 +1,14 @@
 import Footer from "../../UI/Footer";
 import { AiOutlineSolution } from "react-icons/ai";
-import inv2 from "../../Images/consult.jpg";
+import inv2 from "../../Images/inv-2.jpg";
 function Consult() {
   return (
     <>
       <div className="hero-position">
         <img src={inv2} alt="Hero-img" className="hero-img c-i" />
+        <div className="hero">
+          <h2 className="hero-h2">HOSPITALITY CONSULTING</h2>
+        </div>
       </div>
 
       <div className="grid-2 inv history">
