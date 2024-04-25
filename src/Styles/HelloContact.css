@@ -15,7 +15,7 @@
 }
 
 .ct {
-  background-color:#9fc53f30;
+  background-color: #9fc53f30;
 }
 .input,
 .textarea::placeholder {
@@ -53,24 +53,6 @@
 .send-btn {
   width: 10%;
   margin-left: 3%;
-}
-
-.sub-form {
-  margin: auto 27%;
-}
-
-.subscribe {
-  background-color: #b1b1b436;
-  padding: 3rem;
-}
-
-.sub-input {
-  display: flex;
-  align-items: center;
-}
-
-.sub-btn {
-  width: 15%;
 }
 
 .contact-grid {

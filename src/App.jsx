@@ -10,8 +10,11 @@ import Investment from "./Components/Services/Investment";
 import Solutions from "./Components/Services/Solutions";
 import Consult from "./Components/Services/Consult";
 import Gallery from "./Components/Media/Gallery";
-import Blogs from "./Components/Media/Blogs";
+import Blogs from "./Pages/Blogs";
+// import Blog from "./Features/Blogs/Blog";
 import News from "./Components/Media/News";
+import BlogContent from "./Features/Blogs/BlogContent";
+import PortfolioContent from "./Features/Portfolio/PortfolioContent";
 
 function App() {
   return (
@@ -26,7 +29,12 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="media/gallery" element={<Gallery />} />
             <Route path="media/news" element={<News />} />
-            <Route path="media/blogs" element={<Blogs />} />
+            <Route path="blogs" element={<Blogs />} />
+            <Route
+              path="/portfolio/details/:id"
+              element={<PortfolioContent />}
+            />
+
             <Route
               path="service/hospitality-investment"
               element={<Investment />}
@@ -40,6 +48,7 @@ function App() {
               element={<Consult />}
             />
             <Route path="csr" element={<Csr />} />
+            <Route path="media/blogContent/:id" element={<BlogContent />} />
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>

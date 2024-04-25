@@ -1,4 +1,4 @@
-import s1 from "../Images/s1.jpg";
+import s1 from "../Images/media1.jpg";
 import Footer from "../UI/Footer";
 
 function Csr() {
@@ -6,8 +6,8 @@ function Csr() {
     <>
       <div className="hero-position">
         <img src={s1} alt="Hero-img" className="hero-img csr-img" />
-        <div className="hero csr">
-          <h2 className="hero-h2">CSR</h2>
+        <div className="hero cor">
+          <h2 className="hero-h2 cor-head">Corporate Social Responsibility</h2>
         </div>
       </div>
       <div className="container">

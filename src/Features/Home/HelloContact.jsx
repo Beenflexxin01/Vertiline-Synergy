@@ -2,10 +2,10 @@ function HelloContact() {
   return (
     <>
       <div className="container">
-        <h2 className="secondary-header services serv-align">SAY HELLO!</h2>
-        <p className="hello-text">
+        <h2 className="secondary-header services serv-align">Contact Us!</h2>
+        {/* <p className="hello-text">
           Please fill the form below and our team will get back to you.
-        </p>
+        </p> */}
 
         <div className="form">
           <form action="" className="form-class">

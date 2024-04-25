@@ -1,11 +1,23 @@
 .csr {
-  left: 45%;
-  top: 45%;
+  width: 70%;
+  margin: auto;
 }
 
 .csr-img {
-  height: 60vh;
-  filter: blur(3px);
+  height: 70vh;
+  width: 70vw;
+  margin: auto 15%;
+}
+
+.cor-head {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.cor {
+  margin: 0;
+  top: 80%;
+  right: 14%;
 }
 
 .g-h {
@@ -13,19 +25,87 @@
 }
 
 .news-img {
-    height: 10rem;
-    width: 14rem;
+  height: 10rem;
+  width: 14rem;
 }
 
 .link {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .news-head {
-    font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .news-desc {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.news {
+  color: #10123c;
+}
+
+.news-hero {
+  left: 27%;
+}
+
+.video {
+  margin: 8rem 4rem;
+}
+
+.news-grid {
+  margin: 6rem;
+}
+.vid {
+  margin-top: 1rem;
+}
+
+.news--btn {
+  margin-top: 7.3rem;
+}
+
+.news-btn {
+  margin-top: 18rem;
+}
+
+.blog-hero {
+  left: 26%;
+  /* top: 45%; */
+}
+
+.blog-header {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.creche {
+  font-size: 1.2rem;
+}
+
+.blog-content {
+  margin: 7rem 0;
+}
+
+.topic {
+  font-weight: 500;
+  font-size: 1.6rem;
+  list-style: square inside;
+}
+
+.blogss {
+  color: #10123c;
+  font-size: 1.8rem;
+}
+
+.topic-desc {
+  text-transform: capitalize;
+  display: list-item;
+  list-style: square inside;
+}
+
+.who,
+.top {
+  line-height: 2.4;
 }

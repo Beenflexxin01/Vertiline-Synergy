@@ -25,10 +25,16 @@
   background-color: #10123c;
   color: #fff;
   padding: 0.2rem;
-  margin: 1rem 47rem;
+  margin: 3rem 54%;
+  margin: 3rem 40%;
 }
 
 .read:hover {
   transform: scale(1.03);
   background-color: #060855;
+}
+
+.welcome-words {
+  width: 50%;
+  margin: auto;
 }

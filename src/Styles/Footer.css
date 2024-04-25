@@ -6,20 +6,14 @@
 .footer-link:link,
 .footer-link:visited {
   color: #fff;
+  opacity: 75%;
   line-height: 3;
   font-size: 1.3rem;
 }
 
 .nur-header {
   font-size: 1.8rem;
-  color: #eee;
-  color: #9fc53f;
-  opacity: 70%;
-}
-
-.foot-4 {
-  padding: 3rem;
-  margin-left: 22rem;
+  color: #fff;
 }
 
 .footer-logo {
@@ -43,7 +37,7 @@
 .social-icons {
   display: flex;
   gap: 2rem;
-  margin-left: 2rem;
+  margin-left: 9rem;
   cursor: pointer;
 }
 
@@ -59,4 +53,46 @@
   background-color: transparent;
   color: #fff;
   transform: scale(1.01);
+}
+
+.sub-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  background-color: #0a0b23;
+}
+
+.sub {
+  color: #fff;
+}
+
+.sub-text {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 2;
+  opacity: 75%;
+}
+
+.sub-input-form {
+  background-color: rgb(118, 99, 99);
+  width: 100%;
+}
+
+.sub-input-form::placeholder {
+  color: #fff;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-location,
+.footer--link:link,
+.footer--link:visited {
+  color: #fff;
 }

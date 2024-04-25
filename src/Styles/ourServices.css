@@ -16,23 +16,116 @@
 }
 
 .services {
-  color: #9ec53f;
-  color: #10123c;
-  font-size: 4rem;
+  /* font-size: 4rem; */
+  font-size: 1.6rem;
   line-height: 2;
 }
 
 .serv-align {
   text-align: center;
-}
-
-.tertiary-header {
+  text-transform: uppercase;
   font-size: 2rem;
 }
 
 .serv-btn {
-  margin-top: 9rem;
+  margin-top: 10.8rem;
 }
 .serv--btn {
-  margin-top: 12rem;
+  margin-top: 14.2rem;
+}
+
+.hos-img {
+  height: 80vh;
+  width: 100vw;
+  filter: blur(2px) brightness(30%) opacity(90%);
+}
+
+.i-h {
+  margin-top: 1rem;
+  color: #10123c;
+}
+
+.inv {
+  margin: auto;
+  top: 48%;
+}
+
+.investment {
+  background-color: #84848fac;
+  margin: auto;
+  padding: 2rem;
+  height: 90vh;
+}
+
+.i-v {
+  color: #10123c;
+}
+
+.inv-h2 {
+  left: 10%;
+}
+
+.c-i {
+  filter: brightness(80%);
+  height: 70vh;
+}
+
+.list {
+  line-height: 2;
+}
+
+.cons-header {
+  font-size: 1.8rem;
+}
+
+.turn-li {
+  font-size: 1.65rem;
+
+}
+
+.c-t {
+  color: #10123c;
+}
+
+.l-g {
+  margin: 0;
+}
+
+.sol {
+ filter: brightness(50%) blur(1px);
+}
+
+.sol-grid {
+  margin: 2rem 8rem;
+}
+
+.inv-margin {
+  padding-top: 3rem;
+}
+
+.inv-flex {
+  display: flex;
+}
+.cons {
+  left: 29%;
+}
+
+.i--h {
+  margin-top: 3.6rem;
+}
+
+.csr {
+  width: 70%;
+  margin: auto;
+}
+
+.csr-img {
+  height: 70vh;
+  width: 70vw;
+  margin: auto 15%;
+}
+
+
+.co {
+  height: 90vh;
 }

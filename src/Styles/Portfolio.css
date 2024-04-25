@@ -1,0 +1,128 @@
+.port-head {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.location {
+  font-size: 1.4rem;
+}
+
+.location-desc,
+.role {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.port-grid {
+  cursor: pointer;
+  margin: 0 3rem;
+  padding: 3rem 1rem;
+  /* border: 0.01px solid #0c0c0c1e; */
+  height: 100%;
+}
+
+.port--grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.port-img {
+  height: 70vh;
+  width: 100vw;
+  filter: brightness(45%);
+}
+
+.port-image {
+  width: 60%;
+  height: 20vh;
+  /* margin: 0 4rem; */
+  /* background-color: red; */
+  margin-bottom: 4rem;
+  transition: all 0.5s linear;
+}
+
+.port-image:hover {
+  transform: scale(1.02);
+}
+
+.loc {
+  margin: auto;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.port-ul {
+  list-style: disc;
+}
+
+.port--val, .port-val, .port-va, .port_va{
+  font-size: 1.5rem;
+  /* list-style: square inside; */
+  line-height: 2;
+}
+
+.port-val {
+  list-style: disc;
+}
+
+.port-val::marker {
+  content: "";
+  list-style: disc;
+  font-size: 2rem;
+}
+
+.concept {
+  font-weight: 500;
+}
+
+.overlay {
+  background-color: #5555556b;
+  background-color: #313131cc;
+
+  /* filter: blur(10px); */
+  /* display: none; */
+}
+
+.modsl,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* position: relative; */
+}
+
+.img {
+  height: 80vh;
+  width: 100%;
+}
+
+.port-flex {
+  gap: 5rem;
+  margin: 2rem 0;
+}
+
+.loc-fl {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* .port-cols {
+  margin: 4rem 24rem;
+  width: 100%;
+} */
+
+.portfolios {
+  margin: 4rem 30%;
+  width: 100%;
+}
+
+.port-icon {
+  color: #10123c;
+}

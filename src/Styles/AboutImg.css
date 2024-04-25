@@ -1,22 +1,20 @@
 .about-img {
-  height: 90vh;
+  height: 65vh;
   width: 100%;
+  filter: brightness(65%);
 }
 
-.history {
-  background-color: #10123c;
-  color: #fff;
-  padding: 2rem;
+.abt {
+  top: 75%;
+  left: 3%;
 }
 
-.mission {
-  margin: auto;
-  width: 50%;
+.cor-head {
+  font-size: 7rem;
 }
 
 .abt-header {
   font-size: 2.3rem;
-  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -29,22 +27,17 @@
   margin: 1rem 0;
 }
 
-.certifications {
-  list-style: disc;
-  font-size: 1.4rem;
-  line-height: 2;
-}
-
-.hero-li {
-  /* display: flex; */
-  gap: 3rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .values {
   font-size: 1.8rem;
-  list-style: square;
+  background-color: #fff;
+  margin: 1rem;
+  color: #10123c;
+  line-height: 2;
+  padding: 1rem 3rem;
+  border-radius: 9px;
+  font-weight: bold;
+  list-style: square ;
+  font-weight: 540;
 }
 
 .about-hero {
@@ -59,4 +52,31 @@
   display: flex;
   align-items: center;
   gap: 1.4rem;
+}
+
+.cor-h2 {
+  margin-top: 17rem;
+}
+
+.mission {
+  background-color: #10123c;
+}
+
+.mission-mar {
+  padding: 4rem;
+  margin: 4rem;
+}
+
+.mission-desc {
+  color: #fff;
+  opacity: 67%;
+}
+
+.m-h {
+  color: #fff;
+  /* opacity: 80%; */
+}
+
+.management {
+  margin-top: 4rem;
 }

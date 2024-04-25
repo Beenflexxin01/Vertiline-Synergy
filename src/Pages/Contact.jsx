@@ -38,17 +38,13 @@ function Contact() {
               </div>
             </div>
 
-            <div className="">
-              <div className="location tel">
-                <HiClock size={"24px"} className="contact-icon" />
-                <div className="block">
-                  <p className="text-description ">
-                    Monday - Friday (9:00 AM - 5:00 PM )
-                  </p>
-                  <p className="text-description ">
-                    Saturday & Sunday (Closed)
-                  </p>
-                </div>
+            <div className="location tel">
+              <HiClock size={"24px"} className="contact-icon" />
+              <div className="block">
+                <p className="text-description ">
+                  Monday - Friday (9:00 AM - 5:00 PM )
+                </p>
+                <p className="text-description ">Saturday & Sunday (Closed)</p>
               </div>
             </div>
           </div>
@@ -80,15 +76,6 @@ function Contact() {
                     <input
                       type="number"
                       placeholder="Phone Number"
-                      required
-                      className="input inp-2"
-                    />
-                  </li>
-
-                  <li className="form-li contact-li">
-                    <input
-                      type="text"
-                      placeholder="Subject"
                       required
                       className="input inp-2"
                     />

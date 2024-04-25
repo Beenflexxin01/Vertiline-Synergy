@@ -1,4 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { RiArrowDropDownLine } from "react-icons/ri";
+
 import vsl from "../Images/VSL.png";
 function MainNav() {
   return (
@@ -23,6 +25,7 @@ function MainNav() {
           <div className="dropdown">
             <li className="main-nav-li">
               Services
+              <RiArrowDropDownLine size={"18px"} />
               <div className="dropdown-content">
                 <li className="main-nav-l">
                   <NavLink
@@ -58,6 +61,7 @@ function MainNav() {
           <div className="dropdown">
             <li className="main-nav-li">
               Media
+              <RiArrowDropDownLine size={"18px"} />
               <div className="dropdown-content">
                 <li className="main-nav-l">
                   <NavLink
@@ -67,16 +71,12 @@ function MainNav() {
                   </NavLink>
                 </li>
                 <li className="main-nav-l">
-                  <NavLink
-                    to={"media/blogs"}
-                    className="nav-link dropdown-link">
+                  <NavLink to={"blogs"} className="nav-link dropdown-link">
                     Blog
                   </NavLink>
                 </li>
                 <li className="main-nav-l">
-                  <NavLink
-                    to={"media/news"}
-                    className="nav-link dropdown-link">
+                  <NavLink to={"media/news"} className="nav-link dropdown-link">
                     News
                   </NavLink>
                 </li>
@@ -91,9 +91,20 @@ function MainNav() {
           </li>
 
           <li className="main-nav-li">
-            <NavLink to={"contact"} className="nav-link">
+            <NavLink to={"contact"} className="nav-link cta">
               Contact Us
             </NavLink>
+          </li>
+        </div>
+
+        <div className="vsts">
+          <li className="main-nav-li">
+            <Link
+              to={"https://vsts.netlify.app/"}
+              target="blank"
+              className="training-link ">
+              Training School
+            </Link>
           </li>
         </div>
       </ul>

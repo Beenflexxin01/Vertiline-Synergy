@@ -1,9 +1,14 @@
+import PortfolioPage from "../Features/Portfolio/PortfolioPage";
+import Footer from "../UI/Footer";
+
 function Portfolio() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <PortfolioPage />
+
+      <Footer />
+    </div>
+  );
 }
 
-export default Portfolio
+export default Portfolio;
