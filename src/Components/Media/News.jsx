@@ -20,8 +20,8 @@ function News() {
     <>
       <div className="hero-position">
         <img src={news} alt="Hero-img" className="hero-img csr-img" />
-        <div className="hero news-hero">
-          <h1 className="hero-h2 cor-head news">WE ARE IN THE NEWS</h1>
+        <div className="hero inv">
+          <h1 className="hero-h2">WE ARE IN THE NEWS</h1>
         </div>
       </div>
       <div className="container">
