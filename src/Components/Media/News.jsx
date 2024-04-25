@@ -8,7 +8,7 @@ import vanguard from "../../Images/vanguard.jpeg";
 import channels from "../../Images/channels.jpeg";
 import { Link } from "react-router-dom";
 import Footer from "../../UI/Footer";
-import news from "../../Images/news.JPG";
+import news from "../../Images/news.jpg";
 const VIDEO_PATH =
   "https://vertilinesynergy.com/wp-content/uploads/2023/08/VID-20230725-WA0012.mp4";
 const VIDEO_PATH2 = "https://youtu.be/zKF1pjdBZ0I";
