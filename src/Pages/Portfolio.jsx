@@ -5,7 +5,6 @@ function Portfolio() {
   return (
     <div>
       <PortfolioPage />
-
       <Footer />
     </div>
   );

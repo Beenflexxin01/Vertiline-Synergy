@@ -106,8 +106,8 @@ function PortfolioContent() {
                   <li className="port--val">{techAdv3}</li>
                   <li className="port--val">{techAdv4}</li>
                   <li className="port--val">{techAdv5}</li>
-                    <li className="port--val">{techAdv6}</li>
-                    
+                  <li className="port--val">{techAdv6}</li>
+
                   <li className="port-val vv">{techAdv7}</li>
                   <li className="port-val">{techAdv8}</li>
                   <li className="port-val">{techAdv9}</li>
@@ -119,9 +119,7 @@ function PortfolioContent() {
                   <li className="port-va">{techAdv15}</li>
                   <li className="port-va">{techAdv16}</li>
                   <li className="port-va">{techAdv17}</li>
-                  <li className="port_va">
-                    {techAdv18}
-                  </li>
+                  <li className="port_va">{techAdv18}</li>
                 </ul>
               </div>
             </div>

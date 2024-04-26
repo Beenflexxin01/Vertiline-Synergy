@@ -15,6 +15,7 @@ import Blogs from "./Pages/Blogs";
 import News from "./Components/Media/News";
 import BlogContent from "./Features/Blogs/BlogContent";
 import PortfolioContent from "./Features/Portfolio/PortfolioContent";
+import BusinessContent from "./Components/Business/BusinessContent";
 
 function App() {
   return (
@@ -31,11 +32,6 @@ function App() {
             <Route path="media/news" element={<News />} />
             <Route path="blogs" element={<Blogs />} />
             <Route
-              path="/portfolio/details/:id"
-              element={<PortfolioContent />}
-            />
-
-            <Route
               path="service/hospitality-investment"
               element={<Investment />}
             />
@@ -48,7 +44,19 @@ function App() {
               element={<Consult />}
             />
             <Route path="csr" element={<Csr />} />
+
+            <Route
+              path="/portfolio/details/:id"
+              element={<PortfolioContent />}
+            />
+
             <Route path="media/blogContent/:id" element={<BlogContent />} />
+
+            <Route
+              path="/businessFocus/details/:id"
+              element={<BusinessContent />}
+            />
+
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>

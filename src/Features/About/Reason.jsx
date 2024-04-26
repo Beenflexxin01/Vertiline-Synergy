@@ -7,17 +7,14 @@ function Reason() {
             Why Vertiline Synergy Limited?
           </h2>
           <p className="text-description mission-desc">
-            Seeking professional assistance from inception can help pre4vent
-            business failure. We offer comprehensive solutions that encompasses
-            strategic planning, business development, operational definition
-            efficiency, customer experience enhancement and sustainable
-            practices.
-          </p>
-          <p className="text-description mission-desc">
-            We ensure investors achieve their goals of setting up and
-            maintaining successful companies with maximum productivity and
-            efficiency in every aspect by providing functional and innovative
-            management and operational solutions.
+            We ensure our clients achieve their goals of setting up and
+            maintaining successful hospitality ventures, with maximum
+            productivity and efficiency in every aspect. This we do, by
+            providing functional and innovative management and operational
+            solutions, Our comprehensive services, encompassing of strategic
+            planning, business development, operational definition efficiency,
+            customer experience enhancement and sustainable practices are
+            offered to our from inception to avoid business failure.
           </p>
         </div>
       </div>

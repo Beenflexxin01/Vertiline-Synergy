@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const express = require("express");
 const Blogs = require("./Models/BlogModel");
 const Portfolio = require("./Models/PortfolioModel");
+const Focus = require("./Models/FocusModel");
 const app = express();
 app.use(
   express.json(
@@ -82,6 +83,28 @@ app.get("/api/portfolios/:id", async (req, res) => {
     const portfolios = await Portfolio.findById(id);
 
     res.json(portfolios);
+  } catch (err) {
+    console.log(err.message);
+  }
+});
+
+app.get("/api/businessFocus", async (req, res) => {
+  try {
+    const businessFocus = await Focus.find();
+
+    res.json(businessFocus);
+  } catch (err) {
+    console.log(err.message);
+  }
+});
+
+app.get("/api/businessFocus/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const businessFocus = await Focus.findById(id);
+
+    res.json(businessFocus);
   } catch (err) {
     console.log(err.message);
   }

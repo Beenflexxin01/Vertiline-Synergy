@@ -1,16 +1,24 @@
 .bus-img {
   height: 38vh;
   width: 100%;
+  transition: all 0.4s linear;
+  overflow: hidden;
+}
+
+.bus-img:hover,
+.bus-img:active {
+  transform: scale(1.02);
+  border-radius: 9px;
 }
 
 .bus-btn {
   border-radius: 4px;
-  padding: 0.5rem ;
+  padding: 0.5rem 0;
   font-size: 1.03rem;
   border: none;
   outline: none;
+  /* background-color: transparent; */
 }
-
 
 .bus-head {
   margin: auto 4rem;
@@ -19,4 +27,23 @@
 
 .bus-fl {
   gap: 1rem;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.focus {
+  cursor: pointer;
+}
+
+.foc {
+  margin: 4rem 0;
+}
+
+.concept-li,
+.bus-li {
+  list-style: square inside;
+  font-size: 1.5rem;
+  line-height: 2.4;
 }

@@ -1,5 +1,5 @@
+import BusinessPage from "../Components/Business/BusinessPage";
 import Awards from "../Features/Home/Awards";
-import Business from "../Features/Home/Business";
 import HelloContact from "../Features/Home/HelloContact";
 import Hero from "../Features/Home/Hero";
 import OurServices from "../Features/Home/OurServices";
@@ -11,7 +11,7 @@ function Home() {
     <div>
       <Hero />
       <Welcome />
-      <Business />
+      <BusinessPage />
       <OurServices />
       <Awards />
       <HelloContact />
