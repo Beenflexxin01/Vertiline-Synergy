@@ -1,6 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import p1 from "../../Images/p1.jpg";
+// import p1 from "../../Images/p1.jpg";
+import p1 from "../../Images/p4.jpg";
 import p3 from "../../Images/p3.jpg";
 
 function Hero() {
@@ -29,7 +30,7 @@ function Hero() {
         transitionTime={'0.4s'}
         className="carousel">
         <div className="carousel-slide">
-          <img src={p1} alt="" />
+          <img src={p3} alt="" />
           <div className="hero">
             <h2 className="hero-h2">
               Your One-Stop Hospitality <br /> Solutions Company.
@@ -39,7 +40,7 @@ function Hero() {
           </div>
         </div>
         <div className="carousel-slide">
-          <img src={p3} alt="" />
+          <img src={p1} alt="" />
           <div className="hero">
             <h2 className="hero-h2">
               Your One-Stop Hospitality <br /> Solutions Company.
