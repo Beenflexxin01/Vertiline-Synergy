@@ -24,6 +24,26 @@ li {
   list-style: none;
 }
 
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  transition: all 1.4s linear;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 90vh;
+  filter: blur(1px);
+}
+
+.carousel-text {
+  color: #000;
+}
+
 .loader {
   font-size: 3rem;
   font-weight: bold;
