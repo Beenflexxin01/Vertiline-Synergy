@@ -109,3 +109,71 @@
 .top {
   line-height: 2.4;
 }
+
+.panelist {
+  display: flex;
+  overflow: hidden;
+  /* margin: 1rem; */
+}
+
+.panelist:hover {
+  overflow-x: scroll;
+  cursor: pointer;
+}
+
+.panelist::-webkit-scrollbar {
+  width: 0.5px;
+  width: 1px;
+  height: 7px;
+}
+
+.panelist::-webkit-scrollbar-track {
+  box-shadow: none;
+  /* background-color: #000; */
+}
+
+.panelist::-webkit-scrollbar-thumb {
+  /* outline: 0.1px solid rgba(3, 3, 3, 0.288); */
+  border-radius: 2rem;
+  background-color: #fd0909;
+  background-color: #555;
+  width: 1px;
+}
+
+.img-pan {
+  height: 30vh;
+  width: 100%;
+  border-radius: 0.4rem;
+  margin: 0 ;
+}
+
+.img-slider {
+  margin: 1.5rem;
+  /* border: solid 1px #00000070; */
+  border-radius: 0.4rem;
+  /* box-shadow: 1px 1px 1px 1px #00000070; */
+  transition: all 0.3s linear;
+  width: 30%;
+}
+
+.img-slider:hover {
+  transform: translate(1%);
+  box-shadow: 0 2.5px 0 0 #00000070;
+  border: none;
+}
+
+.panels {
+  text-align: center;
+  font-weight: 600;
+}
+
+.grid-flex {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+
+.hbss {
+  margin: 4rem 2rem;
+}

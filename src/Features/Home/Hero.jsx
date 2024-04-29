@@ -27,10 +27,10 @@ function Hero() {
         showArrows={false} // Hide next and previous buttons
         stopOnHover={false} // Do not pause on hover
         showIndicators={false}
-        transitionTime={'0.4s'}
+        transitionTime={"0.4s"}
         className="carousel">
         <div className="carousel-slide">
-          <img src={p3} alt="" />
+          <img src={p3} alt="" className="hero-img" />
           <div className="hero">
             <h2 className="hero-h2">
               Your One-Stop Hospitality <br /> Solutions Company.
@@ -40,7 +40,7 @@ function Hero() {
           </div>
         </div>
         <div className="carousel-slide">
-          <img src={p1} alt="" />
+          <img src={p1} alt="" className="hero-img" />
           <div className="hero">
             <h2 className="hero-h2">
               Your One-Stop Hospitality <br /> Solutions Company.

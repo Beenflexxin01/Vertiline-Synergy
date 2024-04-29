@@ -24,6 +24,12 @@ li {
   list-style: none;
 }
 
+.hero-img {
+  height: 90vh;
+  width: 100%;
+  filter: brightness(65%) blur(0.5px);
+}
+
 .carousel-slide {
   position: relative;
   width: 100%;
@@ -34,11 +40,11 @@ li {
   transition: all 1.4s linear;
 }
 
-.carousel-slide img {
+/* .carousel-slide img {
   width: 100%;
   height: 90vh;
   filter: blur(1px);
-}
+} */
 
 .carousel-text {
   color: #000;
@@ -143,13 +149,6 @@ li {
 
 .hero-position {
   position: relative;
-}
-
-.hero-img {
-  height: 90vh;
-  width: 100%;
-  /* filter: brightness(57%); */
-  filter: brightness(35%);
 }
 
 .hero {
