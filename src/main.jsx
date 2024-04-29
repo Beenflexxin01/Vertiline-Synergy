@@ -11,6 +11,7 @@ import "./Styles/ourServices.css";
 import "./Styles/Business.css";
 import "./Styles/Portfolio.css";
 import "./Styles/Footer.css";
+import "./Styles/MediaQuery.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
