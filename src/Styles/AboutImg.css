@@ -29,14 +29,13 @@
 
 .values {
   font-size: 1.8rem;
-  background-color: #fff;
   margin: 1rem;
   color: #10123c;
   line-height: 2;
   padding: 1rem 3rem;
   border-radius: 9px;
   font-weight: bold;
-  list-style: square ;
+  list-style: square;
   font-weight: 540;
 }
 

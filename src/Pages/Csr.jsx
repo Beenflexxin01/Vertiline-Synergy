@@ -215,7 +215,7 @@ function Csr() {
             </div>
           </div>
 
-          <div className="hbss">
+          {/* <div className="hbss">
             <p className="text-description">
               Click {""}
               <Link to={"https://hbs.vertilinesynergy.com"} target="blank">
@@ -223,7 +223,7 @@ function Csr() {
               </Link>
               {""} to learn more about the Hospitality Business Summit.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 

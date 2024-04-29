@@ -35,7 +35,7 @@ function News() {
           />
         </div>
 
-        <div className="grid-3">
+        <div className="grid-3 news--grid">
           <div className="grid-3-cols news-grid">
             <div className="flex">
               <img

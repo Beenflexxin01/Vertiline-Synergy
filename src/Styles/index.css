@@ -64,10 +64,7 @@ li {
   position: fixed;
   top: 0;
   z-index: 99;
-  display: flex;
-  justify-content: space-between;
   background-color: #fff;
-  /* background-color: #888888c6; */
   width: 100%;
   padding: 1rem 0;
 }
@@ -79,10 +76,11 @@ li {
 }
 
 .main-nav-ul,
-.burger {
+.burger-menu {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 3.5rem;
+  justify-content: space-between;
 }
 
 .logo {
@@ -91,8 +89,8 @@ li {
   /* background-color: #fff; */
 }
 
-.burger {
-  margin: auto 20rem;
+.burger-menu {
+  margin: auto 15rem;
 }
 
 .nav-link:link,

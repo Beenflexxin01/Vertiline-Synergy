@@ -19,7 +19,7 @@
 }
 .input,
 .textarea::placeholder {
-  opacity: 50%;
+  opacity: 80%;
 }
 
 .input:focus,

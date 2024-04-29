@@ -52,7 +52,7 @@ function Gallery() {
                   infiniteLoop={true}
                   interval={4000} // Set the auto-slide interval in milliseconds (e.g., 5 seconds)
                   showThumbs={false} // Hide thumbnail navigation
-                  showStatus={true} // Hide status indicator
+                  showStatus={false} // Hide status indicator
                   showArrows={false} // Hide next and previous buttons
                   stopOnHover={false} // Do not pause on hover
                   showIndicators={false}
@@ -80,7 +80,7 @@ function Gallery() {
                   infiniteLoop={true}
                   interval={4000} // Set the auto-slide interval in milliseconds (e.g., 5 seconds)
                   showThumbs={false} // Hide thumbnail navigation
-                  showStatus={true} // Hide status indicator
+                  showStatus={false} // Hide status indicator
                   showArrows={false} // Hide next and previous buttons
                   stopOnHover={false} // Do not pause on hover
                   showIndicators={false}

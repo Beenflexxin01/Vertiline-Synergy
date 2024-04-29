@@ -53,7 +53,7 @@ function HelloContact() {
                   id=""
                   placeholder="Message"
                   required
-                  className="textarea"></textarea>
+                  className="textarea med-txt"></textarea>
               </li>
             </ul>
             <button className="btn send-btn">Send &rarr;</button>

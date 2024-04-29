@@ -32,7 +32,7 @@ function BusinessPage() {
   return (
     <div className="container">
       <h2 className="secondary-header bus-head">Business Focus</h2>
-      <div className="grid-2">
+      <div className="grid-2 bus-grid">
         {businessFocus &&
           businessFocus.map((business) => (
             <BusinessData business={business} key={business._id} />

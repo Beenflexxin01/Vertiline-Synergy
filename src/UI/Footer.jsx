@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="grid-3">
+        <div className="grid-3 footer-grid">
           <div className="grid-4-cols">
             <h4 className="nur-header">QUICK LINKS</h4>
             <nav className="footer-nav">
@@ -86,7 +86,7 @@ function Footer() {
               />
               <Link
                 to="tel: +234 7053310977"
-                className="contact-link footer--link">
+                className="contact-link footer--link footer-desc">
                 +234 705 331 0977
               </Link>
             </div>
@@ -95,23 +95,23 @@ function Footer() {
               <MdEmail size={"24px"} className="footer-icon" />
               <Link
                 to="mailto:info@vertilinesynergy.com "
-                className="contact-link footer--link">
+                className="contact-link footer--link footer-desc">
                 info@vertilinesynergy.com
               </Link>
             </div>
           </div>
 
           <div className="grid-2-cols">
+            <div className="footer-location tel">
+              <HiMapPin size={"24px"} className="footer-icon" />
+              <p className="text-description footer-desc">
+                59, Awolowo Road, Ikoyi, Lagos Nigeria.
+              </p>
+            </div>
             <div className="social-icons">
               <FaInstagram size={"24px"} className="icons" />
               <FaFacebook size={"24px"} className="icons" />
               <FaTwitter size={"24px"} className="icons" />
-            </div>
-            <div className="footer-location tel">
-              <HiMapPin size={"24px"} className="footer-icon" />
-              <p className="text-description ">
-                59, Awolowo Road, Ikoyi, Lagos Nigeria.
-              </p>
             </div>
           </div>
         </div>

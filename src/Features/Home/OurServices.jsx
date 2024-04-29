@@ -39,7 +39,7 @@ function OurServices() {
                 expertise
               </p>
               <button
-                className="btn serv-btn"
+                className="btn serv-btn srv-b"
                 onClick={() => navigate("/service/hospitality-solutions")}>
                 Learn More
               </button>
