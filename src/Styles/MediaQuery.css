@@ -300,6 +300,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .mission-mar {
+    margin: auto;
+    padding: 1rem;
+  }
+
   .contact-details,
   .footer-grid {
     display: block;
