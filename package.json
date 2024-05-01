@@ -7,6 +7,7 @@
     "dev": "vite",
     "start": "nodemon ./Server/index.js",
     "build": "vite build",
+    "vercel-build": "nodemon ./build.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
