@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import s1 from "../Images/media1.jpg";
 import Footer from "../UI/Footer";
 import ch1 from "../Images/csr/2022 CHILDREN'S DAY CELEBRATION 2.jpg";
@@ -40,6 +39,8 @@ import bck3 from "../Images/csr/bck3.jpg";
 import bck4 from "../Images/csr/bck4.jpg";
 
 import { Carousel } from "react-responsive-carousel";
+
+// import Emails from "../Email/Emails";
 function Csr() {
   return (
     <>
@@ -226,7 +227,8 @@ function Csr() {
           </div> */}
         </div>
       </div>
-
+      {/* <Emails />
+      "email": "email dev --dir src/Emails", */}
       <Footer />
     </>
   );
