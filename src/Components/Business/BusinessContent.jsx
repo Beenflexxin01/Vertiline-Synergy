@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Loader from "../../UI/Loader";
 import Footer from "../../UI/Footer";
+import BackendLink from "../../utils/BackendLink";
 
 function BusinessContent() {
   const [businessFocus, setBusinessFocus] = useState({});
@@ -119,9 +120,7 @@ function BusinessContent() {
     function () {
       async function getBusinessFocus() {
         try {
-          const res = await fetch(
-            `http://localhost:3000/api/businessFocus/${id}`
-          );
+          const res = await fetch(`${BackendLink}/api/businessFocus/${id}`);
 
           if (!res.ok)
             throw new Error("Something went wrong while loading data1");

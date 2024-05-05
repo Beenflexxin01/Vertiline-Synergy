@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import BusinessData from "./BusinessData";
+import BackendLink from "../../utils/BackendLink";
 
 function BusinessPage() {
   const [businessFocus, setBusinessFocus] = useState([]);
@@ -8,7 +9,7 @@ function BusinessPage() {
   useEffect(function () {
     async function getBusinessFocus() {
       try {
-        const res = await fetch("http://localhost:3000/api/businessFocus");
+        const res = await fetch(`${BackendLink}/api/businessFocus`);
         if (!res.ok) {
           throw new Error("Something went wrong while loading datas!");
         }

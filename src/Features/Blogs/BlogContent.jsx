@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Footer from "../../UI/Footer";
 import Loader from "../../UI/Loader";
-
+import BackendLink from '../../utils/BackendLink'
 function BlogContent() {
   const [isLoading, setIsLoading] = useState();
   const [blogDetails, setBlogDetails] = useState({});
@@ -42,7 +42,7 @@ function BlogContent() {
     function () {
       async function getBlogDetails() {
         try {
-          const res = await fetch(`http://localhost:3000/api/blogs/${id}`);
+          const res = await fetch(`${BackendLink}/api/blogs/${id}`);
           if (!res.ok)
             throw new Error(
               "Something went wrong while trying to load blog contents"

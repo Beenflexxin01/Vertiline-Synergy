@@ -3,6 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import Loader from "../../UI/Loader";
 import { HiMapPin } from "react-icons/hi2";
 import Footer from "../../UI/Footer";
+import BackendLink from "../../utils/BackendLink";
+
 import { FaInstagram } from "react-icons/fa";
 function PortfolioContent() {
   const [portfolioContent, setPortfolioContent] = useState({});
@@ -46,7 +48,7 @@ function PortfolioContent() {
     function () {
       try {
         async function getPortfolioContent() {
-          const res = await fetch(`http://localhost:3000/api/portfolios/${id}`);
+          const res = await fetch(`${BackendLink}/api/portfolios/${id}`);
           if (!res.ok)
             throw new Error("Something went wrong while trying to load data");
 

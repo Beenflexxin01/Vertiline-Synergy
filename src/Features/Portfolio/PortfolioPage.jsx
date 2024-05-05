@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PortfolioData from "./PortfolioData";
 import p1 from "../../Images/port3.jpg";
+import BackendLink from "../../utils/BackendLink";
 
 function PortfolioPage() {
   const [portfolioDetails, setPortfolioDetails] = useState([]);
@@ -8,7 +9,7 @@ function PortfolioPage() {
   useEffect(function () {
     async function getPortfolioData() {
       try {
-        const res = await fetch("http://localhost:3000/api/portfolios");
+        const res = await fetch(`${BackendLink}/api/portfolios`);
 
         if (!res.ok)
           throw new Error("Something went wrong while trying to fecth data!");
@@ -28,7 +29,7 @@ function PortfolioPage() {
   return (
     <>
       <div className="hero-position">
-        <img src={p1} alt="Hero-img"  className="port-img" />
+        <img src={p1} alt="Hero-img" className="port-img" />
         <div className="hero abt">
           <h2 className="hero-h2">PORTFOLIO</h2>
         </div>

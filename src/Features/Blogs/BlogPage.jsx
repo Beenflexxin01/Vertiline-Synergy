@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogData from "./BlogData";
 import p1 from "../../Images/blog2.jpg";
+import BackendLink from "../../utils/BackendLink";
 
 function BlogPage() {
   const [blogData, setBlogData] = useState([]);
@@ -8,7 +9,7 @@ function BlogPage() {
   useEffect(function () {
     async function getBlogData() {
       try {
-        const res = await fetch("http://localhost:3000/api/blogs");
+        const res = await fetch(`${BackendLink}/api/blogs`);
         if (!res.ok) {
           throw new Error(
             "Something went wrong while trying to load blog contents ❌❌"
