@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 
 function PortfolioData({ portfolio }) {
   const navigate = useNavigate();
-
   const { _id: portfolioId, title, location, image } = portfolio;
 
   return (
