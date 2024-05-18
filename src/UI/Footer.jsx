@@ -3,7 +3,38 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiMapPin, HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { MdEmail } from "react-icons/md";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+
 function Footer() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_SUB_EMAIL,
+        form.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log("SUCCESS!");
+          console.log(result.text);
+          toast.success("Your email has been successfully sent!");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          toast.error(
+            "An error occured while trying to send the email! Please, try again."
+          );
+        }
+      );
+    e.target.reset();
+  };
   return (
     <>
       <div className="footer">
@@ -60,9 +91,14 @@ function Footer() {
                 mailing list now.
               </p>
 
-              <form action="" className="sub-form">
+              <form
+                action=""
+                ref={form}
+                onSubmit={sendEmail}
+                className="sub-form">
                 <input
                   type="email"
+                  name="user_email"
                   placeholder="Email"
                   required
                   className="input sub-input-form"

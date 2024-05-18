@@ -17,10 +17,14 @@ import BlogContent from "./Features/Blogs/BlogContent";
 import PortfolioContent from "./Features/Portfolio/PortfolioContent";
 import BusinessContent from "./Components/Business/BusinessContent";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <ToastContainer />
         <Routes>
           <Route element={<AppLayout />}>
             <Route index element={<Navigate replace to="home" />} />

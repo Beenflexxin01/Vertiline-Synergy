@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 function HelloContact() {
   const form = useRef();
@@ -7,30 +8,27 @@ function HelloContact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // e.target.reset();
-
     emailjs
-      // .sendForm("service_78ldqg9", "template_391051r", e.target, {
-      //   publicKey: "9XKpO2n6nmpx2DyV8",
-      // })
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-
         form.current,
-        {
-          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
-        }
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log("SUCCESS!");
           console.log(result.text);
+          toast.success("Your email has been successfully sent!");
         },
         (error) => {
-          console.log("FAILED...", error.message);
+          console.log("FAILED...", error);
+          toast.error(
+            "An error occured while trying to send the email! Please, try again."
+          );
         }
       );
+    e.target.reset();
   };
   return (
     <>
