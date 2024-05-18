@@ -18,7 +18,7 @@ function Footer() {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_SUB_EMAIL,
         form.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC
       )
       .then(
         (result) => {
