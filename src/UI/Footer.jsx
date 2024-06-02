@@ -145,9 +145,21 @@ function Footer() {
               </p>
             </div>
             <div className="social-icons">
-              <FaInstagram size={"24px"} className="icons" />
-              <FaFacebook size={"24px"} className="icons" />
-              <FaTwitter size={"24px"} className="icons" />
+              <Link
+                to="https://www.instagram.com/vertilinesynergy/"
+                target="_blank">
+                <FaInstagram size={"24px"} className="icons" />
+              </Link>
+
+              <Link
+                to="https://web.facebook.com/vertilinesynergyltd"
+                target="_blank">
+                <FaFacebook size={"24px"} className="icons" />
+              </Link>
+
+              <Link to="https://twitter.com/Vertiline_SL" target="_blank">
+                <FaTwitter size={"24px"} className="icons" />
+              </Link>
             </div>
           </div>
         </div>

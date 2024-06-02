@@ -39,8 +39,8 @@ import bck3 from "../Images/csr/bck3.jpg";
 import bck4 from "../Images/csr/bck4.jpg";
 
 import { Carousel } from "react-responsive-carousel";
+import { Link } from "react-router-dom";
 
-// import Emails from "../Email/Emails";
 function Csr() {
   return (
     <>
@@ -144,6 +144,7 @@ function Csr() {
             </div>
           </div>
           {/* //////// */}
+
           <div className="grid-flex">
             <div class="img-slider fade">
               <div className="panelist">
@@ -215,20 +216,12 @@ function Csr() {
               <p className="text-description panels">BACKPACK SHARING 2</p>
             </div>
           </div>
-
-          {/* <div className="hbss">
-            <p className="text-description">
-              Click {""}
-              <Link to={"https://hbs.vertilinesynergy.com"} target="blank">
-                HERE
-              </Link>
-              {""} to learn more about the Hospitality Business Summit.
-            </p>
-          </div> */}
+          <p className="ig-link">
+            <Link to="https://www.instagram.com/goldenlittlelights/">Golden Little Lights </Link>
+          </p>
         </div>
       </div>
-      {/* <Emails />
-      "email": "email dev --dir src/Emails", */}
+
       <Footer />
     </>
   );
